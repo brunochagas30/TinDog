@@ -1,0 +1,231 @@
+/*------------Variables ------------*/
+
+:root {
+    --backgroundcolor: #ff4c68;
+    --white: #FFF;
+    --backg2: #ef8172;
+    --paddingpattern: 7% 15%;
+}
+
+
+/*------------General Settings ------------*/
+
+#body {
+    background-color: var(--backgroundcolor);
+    text-align: center;
+    color: var(--white);
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title,
+#cta {
+    background-color: var(--backgroundcolor);
+}
+
+#features,
+#pricing,
+#footer {
+    background-color: var(--white);
+}
+
+#features,
+.caroulselitem,
+#cta,
+#pricing,
+#footer {
+    padding: var(--paddingpattern);
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: black;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+
+/*------------Title Section ------------ */
+
+#title {
+    color: var(--white);
+    background-color: var(--backgroundcolor);
+}
+
+#override-container-fluid {
+    padding: 3% 15% 7%;
+}
+
+#brand {
+    color: var(--white);
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+#overriderow {
+    margin-top: 6rem;
+}
+
+#overriderow h1 {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.button-download {
+    margin: 5% 3% 5% 0;
+}
+
+ul li {
+    padding: 0 18px;
+}
+
+ul li a {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+#dogover {
+    position: relative;
+}
+
+#dogover img {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+
+/*------- Features section------------ */
+
+#features {
+    z-index: 3;
+    position: relative;
+}
+
+#features div {
+    padding: 4.5%;
+}
+
+#features i {
+    color: var(--backg2);
+    margin-bottom: 1rem;
+}
+
+#features i:hover {
+    color: var(--backgroundcolor);
+}
+
+
+/* ------------ Testimonials section ------------ */
+
+#testimonials,
+#press {
+    background-color: var(--backg2);
+    color: var(--white);
+}
+
+#testimonials h2 {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+#testimonials img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.caroulselitem {
+    padding: var(--paddingpattern);
+}
+
+
+/* ------------ Press section ------------ */
+
+#press {
+    padding-bottom: 3%;
+    text-align: center;
+    z-index: 3;
+}
+
+#press img {
+    width: 15%;
+    margin: 20px 20px 15px;
+}
+
+
+/* ------------ Pricing section ------------ */
+
+#pricing {
+    padding: 100px;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+#pricing h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+#pricing h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+
+/* ------------ CTA section ------------ */
+
+#cta h3 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: var(--white);
+}
+
+
+/* ------------ Footer section ------------ */
+
+#footer i {
+    margin: 20px 10px;
+}
+
+
+/* ------------ Dynamic controls section ------------ */
+
+@media (max-width: 1028px) {
+    #dogover img {
+        position: static;
+        transform: rotate(0);
+        text-align: center;
+    }
+    #h1,
+    #dogover,
+    #overriderow {
+        text-align: center;
+    }
+    #cta h3 {
+        font-size: 2rem;
+        padding: 3.5% 7.5%;
+    }
+}
+
+
+/* ------------ Unused code ------------ */
+
+
+/* @media (min-width: 1028px) {
+    #cta h3 {
+        font-size: 2rem;
+        padding: 3.5% 7.5%;
+    } */
